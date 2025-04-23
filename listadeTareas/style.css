@@ -1,0 +1,101 @@
+body {
+    font-family: "Caveat", cursive; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 60px;
+}
+.categoria {
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 200px;
+    border: solid white;
+    border-radius: 150px;
+    color:white;
+}
+#contenedor {
+    width: 815px;
+    /* border: red 1px solid; */
+}
+#listaTareas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px rgb(96, 194, 226) solid;
+    background-color: rgb(193, 222, 231);
+    max-height: 354px;
+    overflow-y: scroll;
+}
+#cat1 {
+    border: 1px solid orange;
+    color: orange;
+}
+#cat2 {
+    border: 1px solid rgb(253, 56, 42);
+    color: rgb(253, 56, 42);
+}
+#cat3 {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+#cat4 {
+    border: 1px solid rgb(84, 84, 248);
+    color: rgb(84, 84, 248);
+}
+.tarea {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px red solid; */
+}
+.derecha {
+    margin-right: 10px;
+}
+.tareaCat1 {
+    color: orange;
+    font-weight: bold;
+    font-size:40px;
+}
+
+.tareaCat2 {
+    color: rgb(253, 56, 42);
+    font-weight: bold;
+    font-size:40px;
+}
+.tareaCat3 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size:40px;
+}
+.tareaCat4 {
+    color: rgb(84, 84, 248);
+    font-weight: bold;
+    font-size:40px;
+}
+.tituloTarea {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.altaPrioridad {
+    color: red;
+}
+.mediaPrioridad {
+    color: orange;
+}
+.bajaPrioridad {
+    color: green;
+}
+#estadoTarea {
+    height: 25px;
+    width: 25px;
+}
+#borrarTarea {
+    height: 25px;
+    width: 25px;
+}
