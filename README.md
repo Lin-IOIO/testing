@@ -1,14 +1,14 @@
-#README#
+# README #
 este repositorio fue creado por:
 
-###NOMBRE Y APELLIDO:###
+### NOMBRE Y APELLIDO: ###
 Thiago Medrano
 
-###MATERIA:###
+### MATERIA: ###
 Taller de Ingeniería de Software
 
-###CURSO:###
+### CURSO: ###
 7°2
 
-###COLEGIO:###
+### COLEGIO: ###
 Colegio Tecnico Provincial Olga B. de Arko
