@@ -20,31 +20,31 @@
             <button id="cat4" class="categoria">Otros</button>
         </div>
         <div id="listaTareas">
-            <div class="tarea">
+            <!-- <div class="tarea">
                 <div class="izquierda">
                     <span class="tareaCat1">•</span><span class="tituloTarea">Charlar con el jefe</span><span class="altaPrioridad">Alta Prioridad</span>
                 </div>
                 <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
+                    <img src="img/pendiente.png" class="estadoTarea">
+                    <img src="img/borrar.png" class="borrarTarea">
                 </div>
-            </div>
-            <div class="tarea">
+            </div> -->
+            <!-- <div class="tarea">
                 <div class="izquierda">
                     <span class="tareaCat2">•</span><span class="tituloTarea">Estudiar Teorema de Pitagoras y por que se cree muerto</span><span class="altaPrioridad">Alta Prioridad</span>
                 </div>
                 <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
+                    <img src="img/pendiente.png" class="estadoTarea">
+                    <img src="img/borrar.png" class="borrarTarea">
                 </div>
             </div>
             <div class="tarea">
                 <div class="izquierda">
-                    <span class="tareaCat3">•</span><span class="tituloTarea">barrer, limpiar, lavar platos y cambiar arena de gatos</span><span class="mediaPrioridad">Prioridad Media</span>
+                    <span class="tareaCat3">•</span><span class="tituloTarea">Barrer, limpiar, lavar platos y cambiar arena de gatos</span><span class="mediaPrioridad">Prioridad Media</span>
                 </div>
                 <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
+                    <img src="img/pendiente.png" class="estadoTarea">
+                    <img src="img/borrar.png" class="borrarTarea">
                 </div>
             </div>
             <div class="tarea">
@@ -52,55 +52,35 @@
                     <span class="tareaCat4">•</span><span class="tituloTarea">Jugar 7 rankeds mínimo y subir al menos 1 subrango</span><span class="bajaPrioridad">Prioridad Baja</span>
                 </div>
                 <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
+                    <img src="img/pendiente.png" class="estadoTarea">
+                    <img src="img/borrar.png" class="borrarTarea" onclick="borrarTarea()">
                 </div>
+            </div> -->
+        </div>
+        <div id="formulario">
+            <div class="form" id="formIzq">
+                <input type="text" id="inputNombreTarea" placeholder="Nombra la Tarea">
+            </div>  
+            <div class="form">
+                <span>Categoria:</span>
+                <select name="inputCategoriaTarea" id="inputCategoriaTarea">
+                    <option value="categoriaTrabajo">Trabajo</option>
+                    <option value="categoriaEstudio">Estudio</option>
+                    <option value="categoriaHogar">Hogar</option>
+                    <option value="categoriaOtros">Otros</option>
+                </select>
             </div>
-            <div class="tarea">
-                <div class="izquierda">
-                    <span class="tareaCat4">•</span><span class="tituloTarea">TEST</span><span class="bajaPrioridad">TEST</span>
-                </div>
-                <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
-                </div>
+            <div class="form">
+                <span>Prioridad:</span>
+                <select name="inputPrioridadTarea" id="inputPrioridadTarea">
+                    <option value=1>Alta</option> 
+                    <option value=2>Media</option>
+                    <option value=3>Baja</option>
+                </select>
             </div>
-            <div class="tarea">
-                <div class="izquierda">
-                    <span class="tareaCat4">•</span><span class="tituloTarea">TEST</span><span class="bajaPrioridad">TEST</span>
-                </div>
-                <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
-                </div>
+            <div class="form" id="formDer" onclick="guardarTarea()">
+                <span>Agregar</span>
             </div>
-            <div class="tarea">
-                <div class="izquierda">
-                    <span class="tareaCat4">•</span><span class="tituloTarea">TEST</span><span class="bajaPrioridad">TEST</span>
-                </div>
-                <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
-                </div>
-            </div> 
-            <div class="tarea">
-                <div class="izquierda">
-                    <span class="tareaCat4">•</span><span class="tituloTarea">TEST</span><span class="bajaPrioridad">TEST</span>
-                </div>
-                <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
-                </div>
-            </div> 
-            <div class="tarea">
-                <div class="izquierda">
-                    <span class="tareaCat4">•</span><span class="tituloTarea">TEST</span><span class="bajaPrioridad">TEST</span>
-                </div>
-                <div class="derecha">
-                    <img src="img/pendiente.png" class="opcionesTarea" id="estadoTarea">
-                    <img src="img/borrar.png" class="opcionesTarea" id="borrarTarea">
-                </div>
-            </div> 
         </div>
     </div>
 </body>
